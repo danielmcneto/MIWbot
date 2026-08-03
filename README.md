@@ -14,9 +14,9 @@
 
 | Command | Description | Example Usage |
 | :--- | :--- | :--- |
-| `/miw-wiki` | Queries the Wikipedia REST API to fetch hardware summaries and specs instantly in-chat. | `/mcu-wiki ESP32` |
-| `/miw-random` | Pulls a random tech thought or hardware-related insight to keep team morale high. | `/mcu-random` |
-| `/miw-status` | Performs a real-time system diagnostic check displaying runtime environment details. | `/mcu-status` |
+| `/miw-wiki` | Queries the Wikipedia REST API to fetch hardware summaries and specs instantly in-chat. | `/miw-wiki ESP32` |
+| `/miw-random` | Pulls a random tech thought or hardware-related insight to keep team morale high. | `/miw-random` |
+| `/miw-status` | Performs a real-time system diagnostic check displaying runtime environment details. | `/miw-status` |
 
 ---
 
