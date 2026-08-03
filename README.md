@@ -10,7 +10,7 @@
 
 ---
 
-## ✨ Features & Slash Commands
+## Features & Slash Commands
 
 | Command | Description | Example Usage |
 | :--- | :--- | :--- |
@@ -38,3 +38,17 @@ To run this project locally for development or testing:
    ```bash
    git clone [https://github.com/danielmcneto/MIWbot.git](https://github.com/danielmcneto/MIWbot.git)
    cd MIWbot
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   
+3. **Configure Environment Variables:**
+   Create a .env file in the root directory and add your Slack API credentials:
+   ```bash
+   SLACK_BOT_TOKEN=xoxb-your-bot-token
+   SLACK_APP_TOKEN=xapp-your-app-token
+
+4. **Launch the bot:**
+   ```bash
+   python slacker.py
