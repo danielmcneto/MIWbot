@@ -65,8 +65,8 @@ def status(ack, respond):
     python_version = platform.python_version()
     respond(f"System: {system_info}\nPython Version: {python_version}\nI'm doing great! How can I help you today?")
 
-@app.command("/miw_random")
-def random_fact(ack, respond):
+@app.command("/miw_quote")
+def random_quote(ack, respond):
     ack()
 
     url = "https://dummyjson.com/quotes/random"
